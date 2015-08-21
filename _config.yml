@@ -3,7 +3,7 @@ title: MemberPress Documentation
 email: support@caseproof.com
 description: > # this means to ignore newlines until "baseurl:"
   MemberPress Documentation Website. Booyah.
-baseurl: "/memberpress-docs/" # the subpath of your site, e.g. /blog/
+baseurl: "/memberpress-docs" # the subpath of your site, e.g. /blog/
 url: "https://caseproof.github.io" # the base hostname & protocol for your site
 twitter_username: memberpress
 github_username:  caseproof
