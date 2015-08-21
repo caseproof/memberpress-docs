@@ -1,2 +1,0 @@
-# memberpress-docs
-MemberPress Documentation
