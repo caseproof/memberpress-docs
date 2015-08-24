@@ -27,7 +27,7 @@ function pcgi_gateway_paths($paths) {
 ?>
 {% endhighlight %}
 
-As long as your gateway interface file is named 'Mepr.*Gateway.php' and the classname is identical then your gateway interface should load up just fine.
+As long as your gateway interface file is named 'Mepr.\*Gateway.php' and the classname is identical then your gateway interface should load up just fine.
 
 ## Parameters
 
