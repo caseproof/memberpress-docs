@@ -4,6 +4,21 @@ title: MemberPress Actions & Filters
 permalink: /actions-and-filters/
 ---
 
+## Checkout
+
+- filter: [mepr_price_string]({{ '/actions-and-filters/mepr_price_string' | prepend: site.baseurl }})
+- filter: [mepr_invoice]({{ '/actions-and-filters/mepr_invoice' | prepend: site.baseurl }})
+<!-- - filter: [mepr_invoice_show_quantity]({{ '/actions-and-filters/mepr_invoice_show_quantity' | prepend: site.baseurl }}) -->
+- filter: [mepr_invoice_html]({{ '/actions-and-filters/mepr_invoice_html' | prepend: site.baseurl }})
+- action: [mepr_after_password_fields]({{ '/actions-and-filters/mepr_after_password_fields' | prepend: site.baseurl }})
+- action: [mepr_user_signup_fields]({{ '/actions-and-filters/mepr_user_signup_fields' | prepend: site.baseurl }})
+- filter: [mepr_validate_signup]({{ '/actions-and-filters/mepr_validate_signup' | prepend: site.baseurl }})
+- action: [mepr_track_signup (DEPRECATED)]({{ '/actions-and-filters/mepr_track_signup' | prepend: site.baseurl }})
+- action: [mepr_process_signup (DEPRECATED)]({{ '/actions-and-filters/mepr_process_signup' | prepend: site.baseurl }})
+- action: [mepr_{$signup_type}_signup]({{ '/actions-and-filters/mepr__signup' | prepend: site.baseurl }})
+- action: [mepr_signup]({{ '/actions-and-filters/mepr_signup' | prepend: site.baseurl }})
+- filter: [mepr_signup_checkout_url]({{ '/actions-and-filters/mepr_signup_checkout_url' | prepend: site.baseurl }})
+
 ## Transactions
 
 - filter: [mepr_create_transaction]({{ '/actions-and-filters/mepr_create_transaction' | prepend: site.baseurl }})
@@ -147,21 +162,6 @@ permalink: /actions-and-filters/
 - filter: [mepr_paypal_ec_send_request]({{ '/actions-and-filters/mepr_paypal_ec_send_request' | prepend: site.baseurl }})
 - filter: [mepr_paypal_cancel_message]({{ '/actions-and-filters/mepr_paypal_cancel_message' | prepend: site.baseurl }})
 - filter: [mepr_paypal_ec_update_payment_profile_args]({{ '/actions-and-filters/mepr_paypal_ec_update_payment_profile_args' | prepend: site.baseurl }})
-
-## Checkout
-
-- filter: [mepr_price_string]({{ '/actions-and-filters/mepr_price_string' | prepend: site.baseurl }})
-- filter: [mepr_invoice]({{ '/actions-and-filters/mepr_invoice' | prepend: site.baseurl }})
-- filter: [mepr_invoice_show_quantity]({{ '/actions-and-filters/mepr_invoice_show_quantity' | prepend: site.baseurl }})
-- filter: [mepr_invoice_html]({{ '/actions-and-filters/mepr_invoice_html' | prepend: site.baseurl }})
-- action: [mepr_after_password_fields]({{ '/actions-and-filters/mepr_after_password_fields' | prepend: site.baseurl }})
-- action: [mepr_user_signup_fields]({{ '/actions-and-filters/mepr_user_signup_fields' | prepend: site.baseurl }})
-- filter: [mepr_validate_signup]({{ '/actions-and-filters/mepr_validate_signup' | prepend: site.baseurl }})
-- action: [mepr_track_signup]({{ '/actions-and-filters/mepr_track_signup' | prepend: site.baseurl }})
-- action: [mepr_process_signup]({{ '/actions-and-filters/mepr_process_signup' | prepend: site.baseurl }})
-- action: [mepr_{$signup_type}_signup]({{ '/actions-and-filters/mepr__signup' | prepend: site.baseurl }})
-- action: [mepr_signup]({{ '/actions-and-filters/mepr_signup' | prepend: site.baseurl }})
-- filter: [mepr_signup_checkout_url]({{ '/actions-and-filters/mepr_signup_checkout_url' | prepend: site.baseurl }})
 
 ## Settings
 

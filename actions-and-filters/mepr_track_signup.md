@@ -1,18 +1,13 @@
 ---
 layout: page
-title: mepr_track_signup
+title: mepr_track_signup (DEPRECATED)
 permalink: /actions-and-filters/mepr_track_signup/
 ---
 
+## Type
+
+This is an **action**.
+
 ## Description
 
-This documentation has yet to be added. Feel free to [fork our documentation project](https://github.com/caseproof/memberpress-docs) to help us.
-
-## Examples
-
-
-## Parameters
-
-
-## Source
-
+This *action* is **DEPRECATED**. Instead, you should use [mepr_signup]({{ '/actions-and-filters/mepr_signup' | prepend: site.baseurl }}) or [mepr_{$signup_type}_signup]({{ '/actions-and-filters/mepr__signup' | prepend: site.baseurl }}).
